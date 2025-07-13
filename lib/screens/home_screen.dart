@@ -69,8 +69,8 @@ class _HomeScreenState extends State<HomeScreen> {
                               style: TextStyle(
                                 fontSize:
                                     MediaQuery.of(context).size.width < 600
-                                    ? 20
-                                    : 26,
+                                    ? 22
+                                    : 28,
                                 fontWeight: FontWeight.w600,
                                 color: Colors.black87,
                               ),
