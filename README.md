@@ -1,16 +1,27 @@
-# recipeapp
+# 🍲 Recipe App - Flutter
 
-A new Flutter project for submission Belajar Membuat Aplikasi Flutter untuk Pemula
+Recipe App yang dibuat dengan Flutter, mendukung tampilan responsif untuk mobile dan web. Cari resep favoritmu, lihat langkah-langkah memasak, dan simpan resep yang kamu sukai!
 
-## Getting Started
+## 📸 Screenshot
+Mobile
+<img width="1824" height="966" alt="Recipe app mobile" src="https://github.com/user-attachments/assets/0e0d074d-b51e-472f-85b8-ed54bbed92be" />
 
-This project is a starting point for a Flutter application.
+Website
+<img width="1895" height="880" alt="Recipe app web" src="https://github.com/user-attachments/assets/1537762f-247f-4bf9-a9bd-c7cfbb118824" />
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Fitur
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔍 Pencarian Resep berdasarkan kata kunci
+- 📋 Tampilan List untuk mobile, Grid untuk web
+- 📱 Tampilan Responsif otomatis menyesuaikan ukuran layar
+- 📌 Bookmark Resep favorit
+- 📖 Detail Resep berisi bahan dan langkah memasak
+- 👤 Profil Pengguna dengan foto dan nama
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Teknologi
+
+- Flutter
+- Dart
+- Provider untuk manajemen state
+- LayoutBuilder & MediaQuery untuk UI responsif
+- REST API ([TheMealDB](https://www.themealdb.com))
